@@ -1,0 +1,132 @@
+/**{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body{
+    background-color: #f4f4f4;
+    color: #555555   ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+   /* font: normal 16px Arial, Helvetica, sans-serif; -- Does the same as the three lines above */
+
+   line-height: 1.6em;
+   margin: 0;
+
+
+}
+a{
+    text-decoration: none;
+    color:#000
+
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+a:visited{
+    color:black;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+
+    border-right: 5px red solid;
+
+    /*same as above, you don't need to add left right top bottom*/
+
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: solid;
+    
+
+    border: 5px red solid;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    /*Same as above*/
+
+    padding: 20px;
+
+    margin-top: 20px;
+    margin: 20px 0;
+
+        
+}
+
+.box-1 h1{
+    font-family:tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 1em0;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0;
+    padding-left: 25px;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: 
+}
+
+.my-form{
+    padding: 50px;
+    }
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input {
+    padding:8px;
+    width:100%;
+}
+   
+.my-form input[:]
+
+
